@@ -1,0 +1,32 @@
+.home-container{
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 100%;
+}
+.hero-container{
+    display: flex;
+    height: 100%;
+    margin: 2rem;
+}
+
+.home-img{
+    width: 70%;
+}
+
+
+
+
+.hero-container>form{
+    width: 30%;
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.hero-container>form>p{
+    text-align: center;
+}
+
+.hero-container>form>input{
+    padding: 0px;
+}

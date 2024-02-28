@@ -1,0 +1,36 @@
+.contact-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container p{
+    text-align: center;
+}
+
+.map, form{
+    width: 50%;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.form-item input, .form-item textarea{
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.submit-btn-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.submit-btn{
+    margin-top: 1rem;
+}

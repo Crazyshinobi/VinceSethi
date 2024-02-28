@@ -1,0 +1,29 @@
+.about-container{
+    display: flex;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.about-img, .about-desc{
+    width: 50%;
+}
+
+.about-img img{
+    height: 480px;
+    width: 90%;
+}
+
+.about-heading{
+    text-align: center;
+    margin-top: 2rem;
+    color: #14693C;
+}
+
+.about-desc p{
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: justify;
+}
